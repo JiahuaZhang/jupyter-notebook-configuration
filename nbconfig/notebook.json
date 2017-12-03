@@ -1,0 +1,11 @@
+{
+  "Notebook": {
+    "Toolbar": false,
+    "Header": false
+  },
+  "CodeCell": {
+    "cm_config": {
+      "lineWrapping": true
+    }
+  }
+}

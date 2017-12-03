@@ -1,0 +1,15 @@
+/* make cell 100% wide */
+.container {
+    width: 100% !important;
+}
+
+/* hide prompt sections (In[#] or Out[#]) for non-code cells */
+.cell:not(.code_cell) .prompt {
+    display: none;
+}
+
+/* narrow the prompt part */
+.prompt {
+    min-width: 0;
+    max-width: 20ex;
+}
